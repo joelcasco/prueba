@@ -1,0 +1,42 @@
+html{
+    font-size: 30px;
+}
+h1, p{
+    background-color: antiquewhite;
+}
+em{
+    background-color: aqua;
+}
+/* box-model */
+h1{
+    /* si agregamos un valor o unidad de medidas afectamos a los cuatro lados */
+    /* lados verticales y horizontales */
+    padding: 26px 20px 26px 20px;
+    /* tipo de trazo- estilo- color */
+    border: 2px dotted black;
+    border-right: 4px solid sandybrown;
+    
+}
+p{
+    /* margin: 38px; */
+    margin: 20px 30px 20px 15px;
+}
+/* unidades absolutas
+px */
+
+/* unidades relativas(para adaptarse)
+%
+em
+ex
+ch
+rem
+*/
+.img-nodel{
+
+}
+/* navegadores y html agregan un tamaño por default a los parrafos de 16% */
+p{
+    font-size: 2rem;
+    /* 1em es igual a 16px o la medida que el navegador usa por default */
+    /*  rem me permite establecer ek tamaño de base- r de root(elemento root del html */
+/* en las img usar %, en los iframes usar widht %  siemore  */
